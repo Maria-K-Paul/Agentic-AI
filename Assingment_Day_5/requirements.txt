@@ -1,0 +1,6 @@
+# LangChain 0.3.x line: this is the API the assignment expects
+# (@tool, create_tool_calling_agent, AgentExecutor)
+langchain>=0.3.0,<1.0.0
+langchain-core>=0.3.0,<1.0.0
+langchain-google-genai>=2.0.0,<3.0.0
+python-dotenv>=1.0.0
