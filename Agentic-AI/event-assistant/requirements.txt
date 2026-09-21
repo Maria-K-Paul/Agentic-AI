@@ -1,0 +1,12 @@
+# Supabase is Postgres, so there is one driver and one dialect for both databases.
+psycopg[binary]>=3.1
+
+# A real Postgres as a wheel, used only when no database URL is set, so that the demo and the
+# tests run on a clean machine with no key and no network. Same engine Supabase runs.
+# If there is no wheel for your platform, set SUPABASE_DB_URL instead and drop this line.
+pgserver>=0.1.4
+
+# Only needed for `python -m scripts.demo --real`.
+google-genai>=1.0
+
+pytest>=8.0
